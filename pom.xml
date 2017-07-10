@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.demo.maven</groupId>
   <artifactId>demo.maven</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>3</version>
    <!-- Manage deployment -->
   <distributionManagement>
   			<repository>
@@ -13,8 +13,8 @@
   			</distributionManagement>
   	<!-- source control management -->
   	<scm>
-  	<connection>scm:git:git@github.com/PanduruIonut/demo-maven.git</connection>
-    <tag>demo.maven-0.1</tag>
+  	<connection>scm:git://github.com/PanduruIonut/demo-maven.git</connection>
+    <tag>HEAD</tag>
   </scm>
   
   <dependencies>
