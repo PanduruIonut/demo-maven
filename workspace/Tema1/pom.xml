@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Tema1</groupId>
   <artifactId>Tema1</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
   <distributionManagement>
   			<repository>
   			<id>releases</id>
@@ -13,7 +13,7 @@
   	<!-- source control management -->
   	<scm>
   	<connection>scm:git://github.com/PanduruIonut/demo-maven.git</connection>
-    <tag>Tema1-0.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
   
   <dependencies>
