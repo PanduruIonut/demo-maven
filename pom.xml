@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ChatUDP</groupId>
+  <artifactId>ChatUDP</artifactId>
+  <version>0.0.1</version>
+  
+  	
+  	<!-- deploy settings -->
+  	<distributionManagement>
+  		<repository>
+  			<id>nexus-releases</id>
+  			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+  		</repository>
+  		
+  		<snapshotRepository>
+  		<id>ChatUDP-staging</id>
+  		<url>file://${project.build.directory}/staging/</url>
+  		</snapshotRepository>
+  </distributionManagement>
+  		
+  		 <!-- source control management -->
+  		<scm>
+  			<connection>scm:git:git://github.com/PanduruIonut/demo-maven.git</connection>
+  		  <tag>0.0.1</tag>
+  </scm>
+  
+  <build>
+  <extensions><extension>
+  <groupId>org.apache.maven.wagon</groupId>
+  <artifactId>wagon-ftp</artifactId>
+  <version>2.12</version>
+  </extension>
+  </extensions>
+  
+      <sourceDirectory>src</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>src</directory>
+        <excludes>
+          <exclude>**/*.java</exclude>
+        </excludes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      <plugin>
+      <groupId>org.apache.mavene.plugins</groupId>
+      <artifactId>maven-release-plugin</artifactId>
+      <version>2.5.2</version>
+      </plugin>
+    </plugins>
+  </build>
+</project>
