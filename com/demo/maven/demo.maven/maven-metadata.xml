@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.demo.maven</groupId>
+  <artifactId>demo.maven</artifactId>
+  <versioning>
+    <versions>
+      <version>12-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170712082006</lastUpdated>
+  </versioning>
+</metadata>
