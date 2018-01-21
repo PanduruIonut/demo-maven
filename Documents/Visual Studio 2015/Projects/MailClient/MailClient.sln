@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailClient", "MailClient\MailClient.csproj", "{0895259E-E506-4CBA-9BBC-B28AC4452490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sendMailCMD", "sendMailCMD\sendMailCMD.csproj", "{C4117F9D-C4C9-4868-B110-4F91D5ED77C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF84B0C7-48F1-42C2-9D86-22BCE7F9F0D7}"
+	ProjectSection(SolutionItems) = preProject
+		mailData.cs = mailData.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0895259E-E506-4CBA-9BBC-B28AC4452490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0895259E-E506-4CBA-9BBC-B28AC4452490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0895259E-E506-4CBA-9BBC-B28AC4452490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0895259E-E506-4CBA-9BBC-B28AC4452490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4117F9D-C4C9-4868-B110-4F91D5ED77C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4117F9D-C4C9-4868-B110-4F91D5ED77C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4117F9D-C4C9-4868-B110-4F91D5ED77C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4117F9D-C4C9-4868-B110-4F91D5ED77C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
